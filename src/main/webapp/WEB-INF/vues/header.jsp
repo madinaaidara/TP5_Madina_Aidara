@@ -48,15 +48,11 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4 shadow-sm">
     <div class="container">
         <a class="navbar-brand fw-bold" href="${pageContext.request.contextPath}/cours?action=liste">
-            <!-- LOGO AVEC TEXTE -->
+            <!-- LOGO RÉEL -->
             <img src="${pageContext.request.contextPath}/assets/images/supdeco.jpg"
                  alt="Logo Supdeco Dakar"
                  height="40"
-                 class="d-inline-block align-text-top me-2"
-                 onerror="this.style.display='none'; document.getElementById('logoPlaceholder').style.display='inline-block';">
-
-            <span id="logoPlaceholder" class="logo-placeholder me-2" style="display: none;">SD</span>
-
+                 class="d-inline-block align-text-top me-2">
             <span class="text-white">Supdeco Dakar</span>
             <small class="text-info ms-2">JEE L3 Info</small>
         </a>
